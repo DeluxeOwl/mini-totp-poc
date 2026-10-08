@@ -5,12 +5,16 @@ Server-rendered HTML and plain forms. No React, client JavaScript, code comments
 
 ## Run
 
+Requires [Bun](https://bun.sh). From the repo directory:
+
 ```sh
 bun install
 bun run dev
 ```
 
-Open http://127.0.0.1:3000. If port 3000 is occupied, run `PORT=3001 bun run dev` and open http://127.0.0.1:3001.
+Open http://127.0.0.1:3000. Press `Ctrl+C` to stop.
+
+If port 3000 is occupied, run `PORT=3001 bun run dev` and open http://127.0.0.1:3001.
 
 ## Try it
 
